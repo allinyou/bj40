@@ -84,7 +84,6 @@
 .page {
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: bottom left;
 }
 
 .page table {
@@ -104,6 +103,15 @@
   background-color: rgba(102, 102, 102, 0.5);
   color: #fff;
   line-height: 0.4rem;
+}
+
+.page .next {
+  position: absolute;
+  left: 50%;
+  bottom: 0.3rem;
+  width: 0.7rem;
+  margin-left: -0.35rem;
+  animation: updown 1.2s linear infinite;
 }
 
 .page-1 {
@@ -247,5 +255,23 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes updown {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(0, 0.2rem, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  75% {
+    transform: translate3d(0, -0.2rem, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
   }
 }

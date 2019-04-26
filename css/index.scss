@@ -166,8 +166,12 @@ $main-color: blue;
 .page-7{
   background-image: url(../assets/7.jpg);
   .info-box{
+    position: absolute;
+    bottom: 1rem;
+    left:50%;
+    margin-left:-3.05rem;
     width: 6.1rem;
-    margin:8rem auto 0;
+    
     input{
       outline: none;
       background-color: rgba(51,51,51,0.7);
@@ -257,13 +261,13 @@ $main-color: blue;
     transform: translate3d(0,0,0);
   }
   25%{
-    transform: translate3d(0,0.2rem,0);
+    transform: translate3d(0,0.1rem,0);
   }
   50%{
     transform: translate3d(0,0,0);
   }
   75%{
-    transform: translate3d(0,-0.2rem,0);
+    transform: translate3d(0,-0.1rem,0);
   }
   100%{
     transform: translate3d(0,0,0);

@@ -104,34 +104,8 @@ $main-color: blue;
 
 // 第1页---------------------------------------------------------------------------------------------------------------------------
 .page-1{
-  background-image: url(../assets/7.jpg);
-  .info-box{
-    width: 6.1rem;
-    margin:8rem auto 0;
-    input{
-      outline: none;
-      background-color: rgba(51,51,51,0.7);
-      width: 5.5rem;
-      padding:0 0.3rem;
-      height: 0.8rem;
-      border:none;
-      color:rgba(255, 255, 255, 0.6);
-      &:nth-child(2){
-        margin-top:0.2rem;
-      }
-      &::placeholder{
-        color:rgba(255, 255, 255, 0.6);
-      }
-    }
-    .btn{
-      text-align: center;
-      height: 0.8rem;
-      line-height: 0.8rem;
-      margin-top:0.2rem;
-      background-color: rgba(255,0,0,0.5);
-      color:#fff;
-    }
-  }
+  background-image: url(../assets/1.jpg);
+  
 }
 
 // 第2页---------------------------------------------------------------------------------------------------------------------------
@@ -183,6 +157,33 @@ $main-color: blue;
 // 第7页---------------------------------------------------------------------------------------------------------------------------
 .page-7{
   background-image: url(../assets/7.jpg);
+  .info-box{
+    width: 6.1rem;
+    margin:8rem auto 0;
+    input{
+      outline: none;
+      background-color: rgba(51,51,51,0.7);
+      width: 5.5rem;
+      padding:0 0.3rem;
+      height: 0.8rem;
+      border:none;
+      color:rgba(255, 255, 255, 0.6);
+      &:nth-child(2){
+        margin-top:0.2rem;
+      }
+      &::placeholder{
+        color:rgba(255, 255, 255, 0.6);
+      }
+    }
+    .btn{
+      text-align: center;
+      height: 0.8rem;
+      line-height: 0.8rem;
+      margin-top:0.2rem;
+      background-color: rgba(255,0,0,0.5);
+      color:#fff;
+    }
+  }
 }
 
 .loading-box{

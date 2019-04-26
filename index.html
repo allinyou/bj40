@@ -1046,6 +1046,18 @@ window.onload = function( ) {
    scrollbox.addEventListener('touchmove',function(e){
     //    e.preventDefault();
        e.stopPropagation();
+   });
+   var inputs = document.querySelectorAll('input');
+   var inputbox = document.querySelector('.info-box');
+   inputs.forEach(ele=>{
+        ele.onfocus = function(){
+            inputbox.style.marginTop = '2.5rem';
+        }
+   })
+   inputs.forEach(ele=>{
+        ele.onblur = function(){
+            inputbox.style.marginTop = '8rem';
+        }
    })
 }
 </script>

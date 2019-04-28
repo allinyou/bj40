@@ -47,37 +47,22 @@ $main-color: blue;
     height: 100%;
     background-color: #000000;
 }
-// 音频-------------------------------------------------------------------------------------------------------------
-#canvas1,#canvas2{
-  position: fixed;
-  width: 30px;
-  height: 52px;
-  z-index: 999;
+
+@font-face{
+  font-family: siyuan;
+  src:url('../font/NotoSansHans-Regular.otf');
+  
 }
-#canvas1{
-  left:0;
-  bottom:20px;
-}
-#canvas2{
-  right:0;
-  top:20px;
-}
-.number{
-  position: fixed;
-  height: 24px;;
-  right:0; 
-  bottom:20px; 
-  color:#fff; 
-  line-height: 24px;
-  background-color: rgba(0, 0, 0,0.6);
-  padding:0 15px;
-  border-radius: 12px 0 0 12px;
+@font-face{
+  font-family: siyuanbold;
+  src:url('../font/NotoSansHans-Bold.otf');
 }
 
 // 滑动页公用样式---------------------------------------------------------------------------------------------------------------------
 .page{ 
   background-size:100% auto;
   background-repeat: no-repeat;
+  font-family: siyuan;
   table{
     
     width: 6.5rem!important;
@@ -140,6 +125,7 @@ $main-color: blue;
 .page-6{
   background-image: url(../assets/6.jpg);
   .table1{
+    font-family: siyuanbold;
     margin:1.8rem auto 0;
     color:#fff;
     background-color: rgba(255,0,0,0.5);

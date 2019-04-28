@@ -69,7 +69,7 @@
 }
 
 .page table {
-  width: 6.5rem !important;
+  width: 6rem !important;
 }
 
 .page table td {
@@ -79,9 +79,9 @@
 }
 
 .page .note {
-  width: 5.9rem;
+  width: 5.4rem;
   margin: 0.2rem auto 0;
-  padding: 0.2rem 0.3rem;
+  padding: 0.1rem 0.3rem;
   background-color: rgba(102, 102, 102, 0.5);
   color: #fff;
   line-height: 0.4rem;
@@ -142,7 +142,7 @@
 }
 
 .page-6 .scroll-box {
-  height: 5.5rem;
+  height: 3rem;
   overflow: scroll;
 }
 
